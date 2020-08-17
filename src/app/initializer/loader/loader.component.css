@@ -1,0 +1,35 @@
+/*
+
+*/
+.fix {
+  position: fixed;
+}
+
+.top {
+  z-index: 999;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fullscreen {
+  width: 100%;
+  height: 100%;
+}
+
+#loadtext {
+  font-size: 14pt;
+  color: #BA1700;
+  text-align: left;
+  position: relative;
+  top: 128px;
+  left: -40px;
+  font-weight: bold;
+  justify-self: flex-start;
+  opacity: 1;
+}
+
+/*# sourceMappingURL=loader.component.css.map */

@@ -1,0 +1,25 @@
+
+:host {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+svg {
+  min-width: 100vw;
+  min-height: 100vh;
+
+  position: absolute;
+  left: 1px;
+}
+#accent {
+  transform-origin: 12px 12px;
+}
+#main {
+  transform-origin: 64px 64px;
+}
+
+.filter {
+  filter: drop-shadow(0 2px 4px #00000018);
+}

@@ -1,0 +1,19 @@
+
+<!--
+We are going to do the layout for the application loader here, we will need to get in with animejs to get the
+animations working nicely
+-->
+
+<!--
+We will need to make it into a container that positions fixed on top of everything on the screen in case we need to
+reuse it.
+-->
+<div class="fix top fullscreen center">
+  <!--
+  So here we can then add the svg and containment for it to center and size properly. we should also ensure that the
+  logo is sized for pre scc loads so it does not misbehave in that slot of time.
+  -->
+  <app-logo [animate]="true" #logo></app-logo>
+
+  <p id="loadtext" #text>{{loadstring}}</p>
+</div>

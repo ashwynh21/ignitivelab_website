@@ -1,0 +1,75 @@
+@import '../../../variables';
+
+:host {
+  min-width: 84vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 8vw;
+
+  > div {
+    min-width: 360px;
+  }
+}
+
+.row {
+  display: flex;
+
+  > app-text {
+    margin: 0;
+    padding: 0 0 0 12px;
+    color: $accent;
+  }
+  > app-shuffle {
+    color: $primary
+  }
+}
+#left {
+  flex: 3;
+  > app-shuffle {
+    color: $primary;
+    font-size: 64pt;
+    font-weight: lighter;
+  }
+  > div {
+    font-size: 24pt;
+    font-weight: lighter;
+  }
+}
+#right {
+  display: flex;
+  flex-flow: column;
+  flex: 2;
+
+  > app-text:first-child {
+    font-size: 20pt;
+    color: $primary;
+
+    margin-bottom: 32px;
+  }
+  > app-text:nth-child(2) {
+    font-size: 20pt;
+    margin-bottom: 32px;
+    color: $accent;
+  }
+  > app-text:last-child {
+    font-size: 20pt;
+    display: flex;
+    align-items: center;
+    color: $accent;
+    pointer-events: all;
+
+    > app-title {
+      font-size: 20pt;
+      pointer-events: all;
+
+    }
+  }
+}
+#logo {
+  height: 20pt;
+  margin-left: 12px;
+}

@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Baloo Thambi 2";
+  src: url("./assets/fonts/BalooPaaji2-Regular.ttf");
+}
+@font-face {
+  font-family: "Baloo Thambi 2";
+  src: url("./assets/fonts/BalooPaaji2-Medium.ttf");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Baloo Thambi 2";
+  src: url("./assets/fonts/BalooPaaji2-SemiBold.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Baloo Thambi 2";
+  src: url("./assets/fonts/BalooPaaji2-Bold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Baloo Thambi 2";
+  src: url("./assets/fonts/BalooPaaji2-ExtraBold.ttf");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Neon 80s";
+  src: url("./assets/fonts/Neon.ttf");
+}
+body {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Baloo Thambi 2", "Helvetica Neue", sans-serif;
+  cursor: none;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,53 @@
+:host {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 997;
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#red {
+  position: relative;
+  width: 28vh;
+  height: 28vh;
+  border-radius: 14vh;
+  background-color: #BA1700;
+  box-shadow: 0 2px 4px 1px #0001;
+  pointer-events: all;
+}
+
+#center {
+  width: 14vh;
+  height: 14vh;
+  border-radius: 7vh;
+  background-color: white;
+  transform-origin: center;
+  position: absolute;
+}
+
+#next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 3vw 6vw;
+}
+#next > img {
+  width: 48px;
+}
+#next > p {
+  margin: 0 16px;
+}
+
+/*# sourceMappingURL=pager.component.css.map */

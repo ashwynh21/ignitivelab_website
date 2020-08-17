@@ -1,0 +1,14 @@
+<div id="left">
+  <!--Greeting line goes here-->
+  <app-shuffle [cards]="['Hello', 'Unjani']" [delay]="0.4E3" #greet>Hello</app-shuffle>
+  <div class="row">
+    <app-shuffle [delay]="0.6E3" #ignite [cards]="['Welcome to', 'Siyakwemukela ku']">Welcome to</app-shuffle>
+    <app-text [delay]="0.8E3">Ignitive Lab <img id="logo" src="../../../assets/icons/logo.svg" alt="logo"/></app-text>
+  </div>
+</div>
+
+<div id="right">
+  <app-text [delay]="0.4E3">We weren't too sure how to explain our selves on this website...</app-text>
+  <app-text [delay]="0.8E3">so how about we show you what we get up to...</app-text>
+  <app-text [delay]="1.2E3">just click on the <app-title highlight="true" (click)="page()">red</app-title> button in the middle</app-text>
+</div>

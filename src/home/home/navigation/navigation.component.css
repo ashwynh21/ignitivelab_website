@@ -1,0 +1,59 @@
+:host {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6vh 6vw;
+  pointer-events: none;
+}
+:host #title > svg {
+  width: 128px;
+  height: 128px;
+}
+:host > #menu {
+  display: flex;
+  pointer-events: all;
+}
+:host > #menu > .menu-item {
+  font-size: 16pt;
+}
+
+.filter {
+  filter: drop-shadow(0 2px 4px #00000008);
+}
+
+.previous {
+  width: 48px;
+}
+
+.before {
+  display: flex;
+  align-items: center;
+  pointer-events: all;
+}
+.before > p {
+  margin: 0 12px;
+  font-size: 32pt;
+  color: #BA1700;
+  font-weight: lighter;
+}
+
+#menu, #title {
+  pointer-events: all;
+}
+
+#bar {
+  max-height: 128px;
+  overflow-y: hidden;
+  display: flex;
+  flex-flow: column;
+}
+#bar > * {
+  min-height: 128px;
+}
+
+/*# sourceMappingURL=navigation.component.css.map */

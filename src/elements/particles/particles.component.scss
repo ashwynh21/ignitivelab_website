@@ -1,0 +1,24 @@
+@import '../../variables';
+
+:host {
+  position: absolute;
+  z-index: -1;
+
+  opacity: 0;
+
+  left: 0;
+  top: 0;
+
+  > div {
+    position: absolute;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    > img {
+      width: 32px;
+      max-height: 32px;
+    }
+  }
+}

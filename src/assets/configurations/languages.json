@@ -1,0 +1,98 @@
+[
+  {
+    "name": "PHP",
+    "icon": "./assets/icons/php.svg"
+  },
+  {
+    "name": "Angular",
+    "icon": "./assets/icons/angular.svg"
+  },
+  {
+    "name": "Android Studio",
+    "icon": "./assets/icons/android-studio.svg"
+  },
+  {
+    "name": "Behance",
+    "icon": "./assets/icons/behance.svg"
+  },
+  {
+    "name": "After Effects",
+    "icon": "./assets/icons/after-effects.svg"
+  },
+  {
+    "name": "C++",
+    "icon": "./assets/icons/c_plus_plus.svg"
+  },
+  {
+    "name": "CSS4",
+    "icon": "./assets/icons/css3.svg"
+  },
+  {
+    "name": "DataGrip",
+    "icon": "./assets/icons/datagrip.svg"
+  },
+  {
+    "name": "Dribbble",
+    "icon": "./assets/icons/dribbble.svg"
+  },
+  {
+    "name": "Figma",
+    "icon": "./assets/icons/figma.svg"
+  },
+  {
+    "name": "GitHub",
+    "icon": "./assets/icons/github.svg"
+  },
+  {
+    "name": "HTML5",
+    "icon": "./assets/icons/html5.svg"
+  },
+  {
+    "name": "Illustrator",
+    "icon": "./assets/icons/illustrator.svg"
+  },
+  {
+    "name": "Kotlin",
+    "icon": "./assets/icons/kotlin.svg"
+  },
+  {
+    "name": "MySQL",
+    "icon": "./assets/icons/mysql.svg"
+  },
+  {
+    "name": "Photoshop",
+    "icon": "./assets/icons/photoshop.svg"
+  },
+  {
+    "name": "XD",
+    "icon": "./assets/icons/xd.svg"
+  },
+  {
+    "name": "PHPStorm",
+    "icon": "./assets/icons/phpstorm.svg"
+  },
+  {
+    "name": "Polymer 3.0",
+    "icon": "./assets/icons/polymer.svg"
+  },
+  {
+    "name": "PyCharm",
+    "icon": "./assets/icons/pycharm.svg"
+  },
+  {
+    "name": "WebStorm",
+    "icon": "./assets/icons/webstorm.svg"
+  },
+  {
+    "name": "NodeJS",
+    "icon": "./assets/icons/nodejs.svg"
+  },
+  {
+    "name": "MongoDB",
+    "icon": "./assets/icons/mongodb.svg"
+  },
+  {
+    "name": "React",
+    "icon": "./assets/icons/react.svg"
+  }
+]

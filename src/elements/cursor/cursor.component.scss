@@ -1,0 +1,45 @@
+@import '../../variables';
+
+:host {
+  position: fixed;
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: none;
+
+  z-index: 999;
+  pointer-events: none;
+
+  > div {
+    pointer-events: none;
+    position: absolute;
+    transform-origin: 50% 50%;
+
+    border-radius: 50%;
+
+    top: 0;
+    left: 0;
+  }
+  > #halo {
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+
+    border: solid $accent 2px;
+
+    mix-blend-mode: difference;
+    background-blend-mode: difference;
+
+    transform: translateX(-10px) translateY(-10px);
+  }
+  > #pointer {
+    height: 6px;
+    width: 6px;
+
+    background-color: $accent;
+
+    transform: translateX(-3px) translateY(-3px);
+  }
+}

@@ -1,0 +1,70 @@
+:host {
+  min-width: 84vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8vw;
+}
+:host > div {
+  min-width: 360px;
+}
+
+.row {
+  display: flex;
+}
+.row > app-text {
+  margin: 0;
+  padding: 0 0 0 12px;
+  color: #00BA25;
+}
+.row > app-shuffle {
+  color: #BA1700;
+}
+
+#left {
+  flex: 3;
+}
+#left > app-shuffle {
+  color: #BA1700;
+  font-size: 64pt;
+  font-weight: lighter;
+}
+#left > div {
+  font-size: 24pt;
+  font-weight: lighter;
+}
+
+#right {
+  display: flex;
+  flex-flow: column;
+  flex: 2;
+}
+#right > app-text:first-child {
+  font-size: 20pt;
+  color: #BA1700;
+  margin-bottom: 32px;
+}
+#right > app-text:nth-child(2) {
+  font-size: 20pt;
+  margin-bottom: 32px;
+  color: #00BA25;
+}
+#right > app-text:last-child {
+  font-size: 20pt;
+  display: flex;
+  align-items: center;
+  color: #00BA25;
+  pointer-events: all;
+}
+#right > app-text:last-child > app-title {
+  font-size: 20pt;
+  pointer-events: all;
+}
+
+#logo {
+  height: 20pt;
+  margin-left: 12px;
+}
+
+/*# sourceMappingURL=greeting.component.css.map */

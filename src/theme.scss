@@ -1,0 +1,12 @@
+@import '../node_modules/@angular/material/theming';
+
+$ash-primary: mat-palette($mat-blue);
+$ash-accent: mat-palette($mat-pink, A700, A600, A800);
+$ash-warn: mat-palette($mat-red);
+
+$ash-typography: mat-typography-config($font-family: 'Baloo Thambi 2');
+
+@include mat-core($ash-typography);
+
+$ash-theme: mat-light-theme($ash-primary, $ash-accent, $ash-warn);
+@include angular-material-theme($ash-theme);

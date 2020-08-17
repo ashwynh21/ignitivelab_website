@@ -1,0 +1,16 @@
+@import '../../variables';
+
+:host {
+  position: fixed;
+  right: 0;
+  width: 60vw;
+  height: 100vh;
+  background-color: lighten($primary, 50);
+
+  z-index: 998;
+
+  pointer-events: none;
+  padding: 6vw;
+
+  box-shadow: 4px 0 8px 1px #0002;
+}

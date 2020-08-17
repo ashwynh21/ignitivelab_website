@@ -1,0 +1,40 @@
+@import '../../variables';
+
+:host {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+
+  justify-content: flex-start;
+  align-items: center;
+
+  padding: 0 8px;
+  font-family: 'Neon 80s', sans-serif;
+
+  /* This is the style that clips the text out of view */
+  clip-path: inset(0 100% 0 0);
+  /* CSS to support hover functionality */
+  transition: transform 256ms;
+
+  > #start-arrow, > #end-arrow {
+    color: $accent;
+    font-weight: 100;
+    margin: 0;
+    line-height: 1;
+
+    transform-origin: 50% 50%;
+    transform: scale(0.64);
+  }
+
+  > #content {
+    margin: auto 0;
+    color: $primary;
+    font-family: "Neon 80s", sans-serif;
+    line-height: 1;
+  }
+}
+:host:hover {
+  transition: transform 256ms;
+  transform: scale(1.12, 1.2);
+  transform-origin: 50% 50%;
+}

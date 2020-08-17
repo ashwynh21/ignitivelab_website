@@ -1,0 +1,26 @@
+@import '../../variables';
+
+:host {
+  margin: 12px;
+}
+svg {
+  transform: scale(1.2);
+}
+#top {
+  fill:none;
+  stroke: $primary;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+#bottom {
+  fill: none;
+  stroke: $primary;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+
+.filter {
+  filter: drop-shadow(0 2px 4px #00000008);
+}
