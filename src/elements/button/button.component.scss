@@ -1,0 +1,27 @@
+:host {
+  width: min-content;
+
+  padding: 6px 20px;
+  background: #BA1700;
+  border-radius: 12px;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  color: white;
+  box-shadow: 0 2px 4px 1px #8882;
+
+  transition: transform 0.25s;
+  transform: scale(1.0);
+}
+:host:hover {
+  transition: transform 0.25s;
+
+  transform: scale(1.01);
+}
+:host:active {
+  transition: transform 0.25s;
+  transition-timing-function: cubic-bezier(.25,0,.4,1.39);
+
+  transform: scale(1.1);
+}

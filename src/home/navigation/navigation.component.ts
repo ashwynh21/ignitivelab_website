@@ -1,8 +1,8 @@
 import {AfterViewInit, Component, ElementRef, Input, OnInit, ViewChild} from '@angular/core';
-import {PagerService} from '../../../elements/pager/pager.service';
+import {PagerService} from '../../elements/pager/pager.service';
 import {Observable} from 'rxjs';
 import anime from 'animejs';
-import {SidebarService} from '../../../elements/sidebar/sidebar.service';
+import {SidebarService} from '../../elements/sidebar/sidebar.service';
 
 @Component({
   selector: 'app-navigation',

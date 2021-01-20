@@ -59,3 +59,8 @@
     margin: 0 16px;
   }
 }
+
+.dim {
+  transition: opacity 0.25s;
+  opacity: 0;
+}

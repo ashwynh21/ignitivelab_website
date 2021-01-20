@@ -3,7 +3,7 @@
   <div id="red" #red (click)="next()"></div>
 </app-highlight>
 
-<div id="center" #center></div>
+<div id="center" [ngClass]="(page | async) > 0 ? ['dim'] : []" #center></div>
 
 <!--
 Let us have a next clickable at the bottom right of the screen

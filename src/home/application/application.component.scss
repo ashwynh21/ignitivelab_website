@@ -1,0 +1,32 @@
+.column {
+  display: flex;
+  flex-flow: column;
+
+  justify-content: center;
+  height: 100%;
+}
+.row {
+  display: flex;
+}
+
+.flex {
+  > div {
+    flex: 1;
+  }
+}
+.content {
+  margin: 0 6vw;
+}
+.subtitle {
+  font-size: 20pt;
+  color: #00BA25;
+  margin: 0;
+}
+.description {
+  font-size: 12pt;
+  color: #00BA2588;
+}
+
+.button {
+  margin-top: 8px;
+}

@@ -11,21 +11,25 @@ import { MenuComponent } from './menu/menu.component';
 import { PagerComponent } from './pager/pager.component';
 import { SliderComponent } from './slider/slider.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { ButtonComponent } from './button/button.component';
+import { GlassComponent } from './glass/glass.component';
 
 @NgModule({
-  declarations: [TitleComponent, CursorComponent, ShuffleComponent, ParticlesComponent, TextComponent, HighlightComponent, MenuComponent, PagerComponent, SliderComponent, SidebarComponent],
-  exports: [
-    TitleComponent,
-    CursorComponent,
-    ShuffleComponent,
-    ParticlesComponent,
-    TextComponent,
-    HighlightComponent,
-    MenuComponent,
-    PagerComponent,
-    SliderComponent,
-    SidebarComponent
-  ],
+  declarations: [TitleComponent, CursorComponent, ShuffleComponent, ParticlesComponent, TextComponent, HighlightComponent, MenuComponent, PagerComponent, SliderComponent, SidebarComponent, ButtonComponent, GlassComponent],
+    exports: [
+        TitleComponent,
+        CursorComponent,
+        ShuffleComponent,
+        ParticlesComponent,
+        TextComponent,
+        HighlightComponent,
+        MenuComponent,
+        PagerComponent,
+        SliderComponent,
+        SidebarComponent,
+        ButtonComponent,
+        GlassComponent
+    ],
   imports: [
     CommonModule,
   ],

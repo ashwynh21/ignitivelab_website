@@ -1,6 +1,6 @@
 import {Component, OnInit, ViewChild} from '@angular/core';
-import {ShuffleComponent} from '../../../elements/shuffle/shuffle.component';
-import {PagerService} from '../../../elements/pager/pager.service';
+import {ShuffleComponent} from '../../elements/shuffle/shuffle.component';
+import {PagerService} from '../../elements/pager/pager.service';
 
 @Component({
   selector: 'app-greeting',
